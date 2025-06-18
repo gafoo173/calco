@@ -88,7 +88,7 @@ PyObject* calco_absolute_value(PyObject* self, PyObject* args) {
     return Py_BuildValue("d", fabs(x));
 }
 
-// Removed 'static' keyword
+
 PyObject* calco_float_modulo(PyObject* self, PyObject* args) {
     double x, y;
     if (!PyArg_ParseTuple(args, "dd", &x, &y)) {
@@ -100,7 +100,7 @@ PyObject* calco_float_modulo(PyObject* self, PyObject* args) {
     return Py_BuildValue("d", fmod(x, y));
 }
 
-// Removed 'static' keyword
+
 PyObject* calco_hypotenuse(PyObject* self, PyObject* args) {
     double x, y;
     if (!PyArg_ParseTuple(args, "dd", &x, &y)) {
@@ -109,7 +109,7 @@ PyObject* calco_hypotenuse(PyObject* self, PyObject* args) {
     return Py_BuildValue("d", hypot(x, y));
 }
 
-// Removed 'static' keyword
+
 PyObject* calco_positive_difference(PyObject* self, PyObject* args) {
     double x, y;
     if (!PyArg_ParseTuple(args, "dd", &x, &y)) {
@@ -118,7 +118,7 @@ PyObject* calco_positive_difference(PyObject* self, PyObject* args) {
     return Py_BuildValue("d", fdim(x, y));
 }
 
-// Removed 'static' keyword
+
 PyObject* calco_copy_sign_double(PyObject* self, PyObject* args) {
     double magnitude, sign_source;
     if (!PyArg_ParseTuple(args, "dd", &magnitude, &sign_source)) {
