@@ -1,0 +1,54 @@
+*******************************************************************Benchmark results may vary depending on library versions and hardware.*****************************************************************************************
+🔹 Level 1: Basic Arithmetic
+--------------------------------------------------
+Operation           Library     Time (s)
+--------------------------------------------------
+Addition            math          0.1669
+Addition            numpy         1.7165
+Addition            calco         0.1658
+Addition            numba         0.5946
+Subtraction         math          0.1690
+Subtraction         numpy         1.8027
+Subtraction         calco         0.1695
+Subtraction         numba         0.2800
+Multiplication      math          0.1593
+Multiplication      numpy         1.8269
+Multiplication      calco         0.2058
+Multiplication      numba         0.3536
+Division            math          0.2165
+Division            numpy         1.7262
+Division            calco         0.1713
+Division            numba         0.3075
+--------------------------------------------------
+
+🔹 Level 2: Intermediate Functions
+--------------------------------------------------
+Operation           Library     Time (s)
+--------------------------------------------------
+Square root         math          0.1744
+Square root         numpy         1.1818
+Square root         calco         0.1692
+Square root         numba         0.2595
+Logarithm           math          0.2209
+Logarithm           numpy         1.1745
+Logarithm           calco         0.1788
+Logarithm           numba         0.2834
+Sine                math          0.1952
+Sine                numpy         1.2363
+Sine                calco         0.1914
+Sine                numba         0.2963
+Exponential         math          0.2065
+Exponential         numpy         1.2141
+Exponential         calco         0.1825
+Exponential         numba         0.2861
+--------------------------------------------------
+
+🔹 Level 3: Complex Expression
+--------------------------------------------------
+Operation           Library     Time (s)
+--------------------------------------------------
+Complex Expression  math          1.1375
+Complex Expression  numpy         6.5503
+Complex Expression  calco         0.9839
+Complex Expression  numba         0.4715
+*******************************************************************Benchmark results may vary depending on library versions and hardware.*****************************************************************************************
