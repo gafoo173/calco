@@ -23,10 +23,13 @@ It provides fast, accurate, and comprehensive implementations of advanced mathem
 ---
 
 ## 📦 Installation
+Or visit the official website for full installation instructions and downloadable builds:
+👉 https://calcolib.netlify.app/
 
-You can find installation instructions and downloadable builds on the official website:  
-👉 **[https://calcolib.netlify.app/](https://calcolib.netlify.app/)**
+You can install calco directly using pip:
 
+```bash
+pip install calco
 ---
 
 ## 🔍 More Information
