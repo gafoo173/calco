@@ -28,7 +28,7 @@ You can install calco directly using pip:
 
 ```bash
 pip install calco
-
+```
 Or visit the official website for full installation instructions and downloadable builds:
 👉 https://calcolib.netlify.app/
 ---
